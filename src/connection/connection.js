@@ -130,7 +130,7 @@ export function connectionDefinitions(
 /**
  * The common page info type used by all connections.
  */
-const pageInfoType = new GraphQLObjectType({
+export const pageInfoType = new GraphQLObjectType({
   name: 'PageInfo',
   description: 'Information about pagination in a connection.',
   fields: () => ({
